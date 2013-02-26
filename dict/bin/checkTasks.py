@@ -1,6 +1,4 @@
-#
-#   2 OPTIONS TO MODIFY >>>
-#
+
 from dict.bin.playFile import myCustomNotifier
 from mechanize import Browser
 from pygame.locals import *
