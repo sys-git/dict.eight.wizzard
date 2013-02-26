@@ -1,4 +1,5 @@
 dict.eight.wizzard
 ==================
 
-If you need it then you know what it is already!
+Transcription checking, downloading and notification wizzard.
+Uses encrypted options for security.
