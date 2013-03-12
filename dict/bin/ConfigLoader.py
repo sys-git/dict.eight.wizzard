@@ -129,6 +129,22 @@ class ConfigLoader(object):
                    "help":'No print to file, default=False',
                    "file":{"section":"debug", "option":"noPrintToFile"},
                    "default":False}
+    SKYPE_ENABLE = {"longOption":"--skype-enable",
+                   "dest":"skypeEnable",
+                   "help":'Enable skype, default=False',
+                   "action":"store_true",
+                   "file":{"section":"skype", "option":"skypeEnable"},
+                   "default":False}
+    SKYPE_ENABLE = {"longOption":"--skype-target-name",
+                   "dest":"skypeTargetName",
+                   "help":'Skype target name, default=""',
+                   "file":{"section":"skype", "option":"skypeTargetName"},
+                   "default":""}
+    SKYPE_ENABLE = {"longOption":"--skype-target-type",
+                   "dest":"skypeTargetName",
+                   "help":"Skype target type, one of: ['call', 'chat'], default='call'",
+                   "file":{"section":"skype", "option":"skypeTargetName"},
+                   "default":"call"}
 
     def __init__(self, args=[], exitOnError=True):
         options, args = ConfigLoader._parse(args, exitOnError)
