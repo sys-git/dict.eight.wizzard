@@ -11,3 +11,7 @@ Login to https using mechanize, auto-login and refresh periods are specified in 
 All options are previously encrypted with dict/encodeOptions.py - see --help for details.
 
 See dict/wizzard.py --help for full options.
+
+In case you're feeling generous:
+LTC: LT636SrauWAz9XDz2EKxAXQ5jKqehyhR69
+BTC: 13vS6cvzZXf1Yxrar2SYSPQrFLSEwLePV4
